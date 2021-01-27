@@ -1,0 +1,163 @@
+2021-01-26 18:56:57,650 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized at jdbc:postgresql://localhost:5432/mydb
+2021-01-26 18:56:57,658 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2021-01-26 18:56:57,663 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - Driver class org.postgresql.Driver found in Thread context class loader ReloadableClassLoader(v1){file:/home/megha/Downloads/todoServer/target/scala-2.13/classes/}
+2021-01-26 18:56:57,667 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - configuration:
+2021-01-26 18:56:57,669 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - allowPoolSuspension.............false
+2021-01-26 18:56:57,669 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - autoCommit......................true
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - catalog.........................none
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionInitSql...............none
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionTestQuery.............none
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionTimeout...............30000
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSource......................none
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceClassName.............none
+2021-01-26 18:56:57,670 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceJNDI..................none
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceProperties............{password=<masked>}
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - driverClassName................."org.postgresql.Driver"
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - healthCheckProperties...........{}
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - healthCheckRegistry.............none
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - idleTimeout.....................600000
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - initializationFailTimeout.......-1
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - isolateInternalQueries..........false
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - jdbcUrl.........................jdbc:postgresql://localhost:5432/mydb
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - leakDetectionThreshold..........0
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - maxLifetime.....................1800000
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - maximumPoolSize.................10
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - metricRegistry..................none
+2021-01-26 18:56:57,671 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - metricsTrackerFactory...........none
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - minimumIdle.....................10
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - password........................<masked>
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - poolName........................"HikariPool-1"
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - readOnly........................false
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - registerMbeans..................false
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - scheduledExecutor...............none
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - schema..........................none
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - threadFactory...................internal
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - transactionIsolation............default
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - username........................"myuser"
+2021-01-26 18:56:57,672 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - validationTimeout...............5000
+2021-01-26 18:56:57,673 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - configuration:
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - allowPoolSuspension.............false
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - autoCommit......................true
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - catalog.........................none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionInitSql...............none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionTestQuery.............none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - connectionTimeout...............30000
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSource......................none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceClassName.............none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceJNDI..................none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - dataSourceProperties............{password=<masked>}
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - driverClassName................."org.postgresql.Driver"
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - healthCheckProperties...........{}
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - healthCheckRegistry.............none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - idleTimeout.....................600000
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - initializationFailTimeout.......-1
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - isolateInternalQueries..........false
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - jdbcUrl.........................jdbc:postgresql://localhost:5432/mydb
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - leakDetectionThreshold..........0
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - maxLifetime.....................1800000
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - maximumPoolSize.................10
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - metricRegistry..................none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - metricsTrackerFactory...........none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - minimumIdle.....................10
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - password........................<masked>
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - poolName........................"HikariPool-1"
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - readOnly........................false
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - registerMbeans..................false
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - scheduledExecutor...............none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - schema..........................none
+2021-01-26 18:56:57,674 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - threadFactory...................internal
+2021-01-26 18:56:57,675 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - transactionIsolation............default
+2021-01-26 18:56:57,675 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - username........................"myuser"
+2021-01-26 18:56:57,675 [DEBUG] from com.zaxxer.hikari.HikariConfig in play-dev-mode-akka.actor.default-dispatcher-4 - validationTimeout...............5000
+2021-01-26 18:56:57,676 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - Starting...
+2021-01-26 18:56:57,690 [INFO] from com.zaxxer.hikari.HikariDataSource in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - Start completed.
+2021-01-26 18:56:57,695 [DEBUG] from play.api.libs.concurrent.ActorSystemProvider in play-dev-mode-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2021-01-26 18:56:57,702 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2021-01-26 18:56:57,703 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-5 - logger log1-Slf4jLogger started
+2021-01-26 18:56:57,703 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-5 - Default Loggers started
+2021-01-26 18:56:57,716 [DEBUG] from akka.serialization.Serialization(akka://application) in application-akka.actor.default-dispatcher-5 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-01-26 18:56:57,717 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2021-01-26 18:56:57,717 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2021-01-26 18:56:57,717 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2021-01-26 18:56:57,717 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2021-01-26 18:56:57,718 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2021-01-26 18:56:57,718 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2021-01-26 18:56:57,720 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2021-01-26 18:56:57,722 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2021-01-26 18:56:57,722 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2021-01-26 18:56:57,722 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2021-01-26 18:56:57,722 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2021-01-26 18:56:57,723 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2021-01-26 18:56:57,723 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2021-01-26 18:56:57,724 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2021-01-26 18:56:57,725 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2021-01-26 18:56:57,727 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2021-01-26 18:56:57,731 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2021-01-26 18:56:57,732 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2021-01-26 18:56:57,732 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-5 - Registered Jackson module [play.utils.JacksonJsonNodeModule]
+2021-01-26 18:56:57,775 [INFO] from io.ebean.config.properties.LoadContext in play-dev-mode-akka.actor.default-dispatcher-4 - loaded properties from []
+2021-01-26 18:56:57,790 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Pool stats (total=0, active=0, idle=0, waiting=0)
+2021-01-26 18:56:57,793 [DEBUG] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-4 - going to scan these urls:
+jar:file:/home/megha/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.5/play_2.13-2.8.5.jar!/
+file:/home/megha/Downloads/todoServer/target/scala-2.13/classes/
+2021-01-26 18:56:57,863 [INFO] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-4 - Reflections took 67 ms to scan 2 urls, producing 11 keys and 99 values 
+2021-01-26 18:56:57,870 [DEBUG] from org.reflections.Reflections in play-dev-mode-akka.actor.default-dispatcher-4 - expanded subtype java.io.Serializable -> io.ebean.bean.EntityBean
+2021-01-26 18:56:57,879 [INFO] from io.ebean.EbeanVersion in play-dev-mode-akka.actor.default-dispatcher-4 - ebean version: 11.45.1
+2021-01-26 18:56:57,906 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@281abfc4
+2021-01-26 18:56:57,910 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13bd2b6
+2021-01-26 18:56:57,914 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18a7282e
+2021-01-26 18:56:57,916 [DEBUG] from com.zaxxer.hikari.pool.PoolBase in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - Reset (autoCommit) on connection org.postgresql.jdbc.PgConnection@281abfc4
+2021-01-26 18:56:57,917 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b652968
+2021-01-26 18:56:57,922 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@367c4b5f
+2021-01-26 18:56:57,927 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@698d8144
+2021-01-26 18:56:57,931 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48ca3203
+2021-01-26 18:56:57,934 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a066c1b
+2021-01-26 18:56:57,939 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ef4fcb7
+2021-01-26 18:56:57,942 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7b76c58c
+2021-01-26 18:56:57,942 [DEBUG] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 connection adder - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2021-01-26 18:56:57,948 [DEBUG] from com.zaxxer.hikari.pool.ProxyConnection in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - Executed rollback on connection org.postgresql.jdbc.PgConnection@281abfc4 due to dirty commit state on close().
+2021-01-26 18:56:57,948 [DEBUG] from com.zaxxer.hikari.pool.PoolBase in play-dev-mode-akka.actor.default-dispatcher-4 - HikariPool-1 - Reset (autoCommit) on connection org.postgresql.jdbc.PgConnection@281abfc4
+2021-01-26 18:56:57,948 [INFO] from io.ebean.internal.DefaultContainer in play-dev-mode-akka.actor.default-dispatcher-4 - DatabasePlatform name:default platform:postgres
+2021-01-26 18:56:57,981 [DEBUG] from io.ebeaninternal.server.type.DefaultTypeManager in play-dev-mode-akka.actor.default-dispatcher-4 - Registering java.time data types
+2021-01-26 18:56:57,991 [DEBUG] from io.ebeaninternal.server.type.DefaultTypeManager in play-dev-mode-akka.actor.default-dispatcher-4 - Registering Joda data types
+2021-01-26 18:56:58,012 [DEBUG] from io.ebeaninternal.server.core.InternalConfigXmlRead in play-dev-mode-akka.actor.default-dispatcher-4 - Classpath search mappings[0] searchTime[0]
+2021-01-26 18:56:58,036 [DEBUG] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - BeanPersistControllers[0] BeanFinders[0] BeanPersistListeners[0] BeanQueryAdapters[0] BeanPostLoaders[0] BeanPostConstructors[0]
+2021-01-26 18:56:58,129 [DEBUG] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Entities[2]
+2021-01-26 18:56:58,168 [DEBUG] from io.ebeaninternal.dbmigration.DbOffline in play-dev-mode-akka.actor.default-dispatcher-4 - reset
+2021-01-26 18:56:58,338 [DEBUG] from play.api.http.HttpConfiguration in play-dev-mode-akka.actor.default-dispatcher-4 - Generated dev mode secret 7325d16c47e14f5728d824a3e3a9cdff for app at file:/home/megha/Downloads/todoServer/target/scala-2.13/classes/application.conf
+2021-01-26 18:56:58,356 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-01-26 18:56:58,399 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
+2021-01-26 18:56:58,449 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-4 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2021-01-26 18:56:58,582 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-5 - ### Start of action order
+2021-01-26 18:56:58,583 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-5 - 1. play.http.DefaultActionCreator$1()
+2021-01-26 18:56:58,583 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-5 - 2. play.core.j.JavaAction$$anon$1()
+2021-01-26 18:56:58,583 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-5 - ### End of action order
+2021-01-26 18:56:58,584 [DEBUG] from controllers.ItemController in application-akka.actor.default-dispatcher-5 - Username is megha
+2021-01-26 18:56:58,635 [DEBUG] from io.ebean.SQL in application-akka.actor.default-dispatcher-5 - txn[1001] select t0.uid, t0.username, t0.password from users t0 where username = ?; --bind(megha)
+2021-01-26 18:56:58,639 [DEBUG] from io.ebean.SUM in application-akka.actor.default-dispatcher-5 - txn[1001] FindMany type[User] origin[CB8iEc.A.A] exeMicros[6411] rows[1] predicates[username = ?] bind[megha]
+2021-01-26 18:56:58,639 [DEBUG] from com.zaxxer.hikari.pool.PoolBase in application-akka.actor.default-dispatcher-5 - HikariPool-1 - Reset (autoCommit) on connection org.postgresql.jdbc.PgConnection@281abfc4
+2021-01-26 18:56:58,654 [DEBUG] from io.ebean.SQL in application-akka.actor.default-dispatcher-5 - txn[1002] select t0.user_uid, t0.item_id, t0.user_uid, t0.subject, t0.item_desc, t0.timestamp, t0.status, t0.user_uid from items t0 where (t0.user_uid) = any(?); --bind(Array[1]={1})
+2021-01-26 18:56:58,655 [DEBUG] from io.ebean.SUM in application-akka.actor.default-dispatcher-5 - txn[1002] FindMany mode[+lazy] type[Item] origin[CB8iEc.A.A] load[path:item size:1] exeMicros[11174] rows[1] predicates[(t0.user_uid) = any(?)] bind[Array[1]={1}]
+2021-01-26 18:56:58,655 [DEBUG] from com.zaxxer.hikari.pool.PoolBase in application-akka.actor.default-dispatcher-5 - HikariPool-1 - Reset (autoCommit) on connection org.postgresql.jdbc.PgConnection@281abfc4
